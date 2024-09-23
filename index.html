@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[Thực hành] Chuyển đổi nhiệt độ</title>
+</head>
+<body>
+<label for="inputFahrenheit">Fahrenheit</label>
+<input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+       oninput="temperatureConverter(this.value)"
+       onchange="temperatureConverter(this.value)">
+<p>Celsius: <span id="result"></span></p>
+
+<script src="js.js"></script>
+</body>
+</html>
